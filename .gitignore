@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+
+# BLAST database
+blastdb/
+*.nhr
+*.nin
+*.nsq
+*.not
+*.ntf
+*.nto
+*.ndb
+*.nos
+*.nsd
+*.nsi
+
+# BLAST output and temporary files
+*_blast_results.tsv
+blast_results.tsv
+*.log
+
+# Test sequence files
+blind_test.fasta
+*.fasta
+*.fa
